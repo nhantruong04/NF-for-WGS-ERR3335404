@@ -1,0 +1,130 @@
+[21:30:00] This is prokka 1.14.6
+[21:30:00] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[21:30:00] Homepage is https://github.com/tseemann/prokka
+[21:30:00] Local time is Fri Aug  8 21:30:00 2025
+[21:30:00] You are nhantruong
+[21:30:00] Operating system is linux
+[21:30:00] You have BioPerl 1.7.8
+[21:30:00] System has 1 cores.
+[21:30:00] Will use maximum of 1 cores.
+[21:30:00] Annotating as >>> Bacteria <<<
+[21:30:00] Generating locus_tag from 'contigs.fasta' contents.
+[21:30:00] Setting --locustag GPOHPNEH from MD5 098197e111493a77cf9856f0face3805
+[21:30:00] Creating new output folder: result
+[21:30:00] Running: mkdir -p result
+[21:30:00] Using filename prefix: result.XXX
+[21:30:00] Setting HMMER_NCPU=1
+[21:30:00] Writing log to: result/result.log
+[21:30:00] Command: /home/nhantruong/miniconda3/envs/KTest/bin/prokka --cpus 1 --prefix result --kingdom Bacteria contigs.fasta
+[21:30:00] Appending to PATH: /home/nhantruong/miniconda3/envs/KTest/bin
+[21:30:00] Looking for 'aragorn' - found /home/nhantruong/miniconda3/envs/KTest/bin/aragorn
+[21:30:00] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[21:30:00] Looking for 'barrnap' - found /home/nhantruong/miniconda3/envs/KTest/bin/barrnap
+[21:30:00] Determined barrnap version is 000009 from 'barrnap 0.9'
+[21:30:00] Looking for 'blastp' - found /home/nhantruong/miniconda3/envs/KTest/bin/blastp
+[21:30:01] Determined blastp version is 002016 from 'blastp: 2.16.0+'
+[21:30:01] Looking for 'cmpress' - found /home/nhantruong/miniconda3/envs/KTest/bin/cmpress
+[21:30:01] Determined cmpress version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[21:30:01] Looking for 'cmscan' - found /home/nhantruong/miniconda3/envs/KTest/bin/cmscan
+[21:30:01] Determined cmscan version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[21:30:01] Looking for 'egrep' - found /usr/bin/egrep
+[21:30:01] Looking for 'find' - found /usr/bin/find
+[21:30:01] Looking for 'grep' - found /usr/bin/grep
+[21:30:01] Looking for 'hmmpress' - found /home/nhantruong/miniconda3/envs/KTest/bin/hmmpress
+[21:30:01] Determined hmmpress version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[21:30:01] Looking for 'hmmscan' - found /home/nhantruong/miniconda3/envs/KTest/bin/hmmscan
+[21:30:01] Determined hmmscan version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[21:30:01] Looking for 'java' - found /home/nhantruong/miniconda3/envs/KTest/bin/java
+[21:30:01] Looking for 'makeblastdb' - found /home/nhantruong/miniconda3/envs/KTest/bin/makeblastdb
+[21:30:01] Determined makeblastdb version is 002016 from 'makeblastdb: 2.16.0+'
+[21:30:01] Looking for 'minced' - found /home/nhantruong/miniconda3/envs/KTest/bin/minced
+[21:30:01] Determined minced version is 004002 from 'minced 0.4.2'
+[21:30:01] Looking for 'parallel' - found /home/nhantruong/miniconda3/envs/KTest/bin/parallel
+[21:30:01] Determined parallel version is 20250622 from 'GNU parallel 20250622'
+[21:30:01] Looking for 'prodigal' - found /home/nhantruong/miniconda3/envs/KTest/bin/prodigal
+[21:30:01] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[21:30:01] Looking for 'prokka-genbank_to_fasta_db' - found /home/nhantruong/miniconda3/envs/KTest/bin/prokka-genbank_to_fasta_db
+[21:30:01] Looking for 'sed' - found /usr/bin/sed
+[21:30:01] Looking for 'tbl2asn' - found /home/nhantruong/miniconda3/envs/KTest/bin/tbl2asn
+[21:30:01] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[21:30:01] Using genetic code table 11.
+[21:30:01] Loading and checking input file: contigs.fasta
+[21:30:01] Wrote 126 contigs totalling 56310 bp.
+[21:30:01] Predicting tRNAs and tmRNAs
+[21:30:01] Running: aragorn -l -gc11  -w result\/result\.fna
+[21:30:01] Found 0 tRNAs
+[21:30:01] Predicting Ribosomal RNAs
+[21:30:01] Running Barrnap with 1 threads
+[21:30:01] Found 0 rRNAs
+[21:30:01] Skipping ncRNA search, enable with --rfam if desired.
+[21:30:01] Total of 0 tRNA + rRNA features
+[21:30:01] Searching for CRISPR repeats
+[21:30:02] Found 0 CRISPRs
+[21:30:02] Predicting coding sequences
+[21:30:02] Contigs total 56310 bp, so using meta mode
+[21:30:02] Running: prodigal -i result\/result\.fna -c -m -g 11 -p meta -f sco -q
+[21:30:02] Found 53 CDS
+[21:30:02] Connecting features back to sequences
+[21:30:02] Not using genus-specific database. Try --usegenus to enable it.
+[21:30:02] Annotating CDS, please be patient.
+[21:30:02] Will use 1 CPUs for similarity searching.
+[21:30:02] There are still 53 unannotated CDS left (started with 53)
+[21:30:02] Will use blast to search against /home/nhantruong/miniconda3/envs/KTest/db/kingdom/Bacteria/IS with 1 CPUs
+[21:30:02] Running: cat result\/result\.IS\.tmp\.21893\.faa | parallel --gnu --plain -j 1 --block 2603 --recstart '>' --pipe blastp -query - -db /home/nhantruong/miniconda3/envs/KTest/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > result\/result\.IS\.tmp\.21893\.blast 2> /dev/null
+[21:30:03] Deleting unwanted file: result/result.IS.tmp.21893.faa
+[21:30:03] Deleting unwanted file: result/result.IS.tmp.21893.blast
+[21:30:03] There are still 53 unannotated CDS left (started with 53)
+[21:30:03] Will use blast to search against /home/nhantruong/miniconda3/envs/KTest/db/kingdom/Bacteria/AMR with 1 CPUs
+[21:30:03] Running: cat result\/result\.AMR\.tmp\.21893\.faa | parallel --gnu --plain -j 1 --block 2603 --recstart '>' --pipe blastp -query - -db /home/nhantruong/miniconda3/envs/KTest/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > result\/result\.AMR\.tmp\.21893\.blast 2> /dev/null
+[21:30:04] Deleting unwanted file: result/result.AMR.tmp.21893.faa
+[21:30:04] Deleting unwanted file: result/result.AMR.tmp.21893.blast
+[21:30:04] There are still 53 unannotated CDS left (started with 53)
+[21:30:04] Will use blast to search against /home/nhantruong/miniconda3/envs/KTest/db/kingdom/Bacteria/sprot with 1 CPUs
+[21:30:04] Running: cat result\/result\.sprot\.tmp\.21893\.faa | parallel --gnu --plain -j 1 --block 2603 --recstart '>' --pipe blastp -query - -db /home/nhantruong/miniconda3/envs/KTest/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > result\/result\.sprot\.tmp\.21893\.blast 2> /dev/null
+[21:30:06] Modify product: Uncharacterized protein MT2702 => putative protein
+[21:30:06] Modify product: Probable cutinase Rv1984c => putative cutinase
+[21:30:06] Modify product: UPF0336 protein Rv0637 => hypothetical protein
+[21:30:06] Cleaned 3 /product names
+[21:30:06] Deleting unwanted file: result/result.sprot.tmp.21893.faa
+[21:30:06] Deleting unwanted file: result/result.sprot.tmp.21893.blast
+[21:30:06] There are still 37 unannotated CDS left (started with 53)
+[21:30:06] Will use hmmer3 to search against /home/nhantruong/miniconda3/envs/KTest/db/hmm/HAMAP.hmm with 1 CPUs
+[21:30:06] Running: cat result\/result\.HAMAP\.hmm\.tmp\.21893\.faa | parallel --gnu --plain -j 1 --block 1697 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/nhantruong/miniconda3/envs/KTest/db/hmm/HAMAP.hmm /dev/stdin > result\/result\.HAMAP\.hmm\.tmp\.21893\.hmmer3 2> /dev/null
+[21:30:09] Deleting unwanted file: result/result.HAMAP.hmm.tmp.21893.faa
+[21:30:09] Deleting unwanted file: result/result.HAMAP.hmm.tmp.21893.hmmer3
+[21:30:09] Labelling remaining 37 proteins as 'hypothetical protein'
+[21:30:09] Found 8 unique /gene codes.
+[21:30:09] Fixed 0 colliding /gene names.
+[21:30:09] Adding /locus_tag identifiers
+[21:30:09] Assigned 53 locus_tags to CDS and RNA features.
+[21:30:09] Writing outputs to result/
+[21:30:09] Generating annotation statistics file
+[21:30:09] Generating Genbank and Sequin files
+[21:30:09] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z result\/result\.err -i result\/result\.fsa 2> /dev/null
+[21:30:10] Deleting unwanted file: result/errorsummary.val
+[21:30:10] Deleting unwanted file: result/result.dr
+[21:30:10] Deleting unwanted file: result/result.fixedproducts
+[21:30:10] Deleting unwanted file: result/result.ecn
+[21:30:10] Deleting unwanted file: result/result.val
+[21:30:10] Repairing broken .GBK output that tbl2asn produces...
+[21:30:10] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < result\/result\.gbf > result\/result\.gbk
+[21:30:10] Deleting unwanted file: result/result.gbf
+[21:30:10] Output files:
+[21:30:10] result/result.sqn
+[21:30:10] result/result.fsa
+[21:30:10] result/result.txt
+[21:30:10] result/result.ffn
+[21:30:10] result/result.faa
+[21:30:10] result/result.gbk
+[21:30:10] result/result.tbl
+[21:30:10] result/result.log
+[21:30:10] result/result.tsv
+[21:30:10] result/result.gff
+[21:30:10] result/result.err
+[21:30:10] result/result.fna
+[21:30:10] Annotation finished successfully.
+[21:30:10] Walltime used: 0.17 minutes
+[21:30:10] If you use this result please cite the Prokka paper:
+[21:30:10] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[21:30:10] Type 'prokka --citation' for more details.
+[21:30:10] Thank you, come again.

@@ -1,0 +1,54 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+GPOHPNEH_00001	CDS	858				hypothetical protein
+GPOHPNEH_00002	CDS	360				hypothetical protein
+GPOHPNEH_00003	CDS	345	gabP		COG1113	GABA permease
+GPOHPNEH_00004	CDS	915				Putative inactive phenolphthiocerol synthesis polyketide synthase type I Pks15
+GPOHPNEH_00005	CDS	204				hypothetical protein
+GPOHPNEH_00006	CDS	315	gdx		COG2076	Guanidinium exporter
+GPOHPNEH_00007	CDS	402				hypothetical protein
+GPOHPNEH_00008	CDS	192				hypothetical protein
+GPOHPNEH_00009	CDS	408				hypothetical protein
+GPOHPNEH_00010	CDS	219	smpB		COG0691	SsrA-binding protein
+GPOHPNEH_00011	CDS	372				hypothetical protein
+GPOHPNEH_00012	CDS	333				hypothetical protein
+GPOHPNEH_00013	CDS	294				hypothetical protein
+GPOHPNEH_00014	CDS	159				hypothetical protein
+GPOHPNEH_00015	CDS	285				hypothetical protein
+GPOHPNEH_00016	CDS	333				hypothetical protein
+GPOHPNEH_00017	CDS	336				PE family immunomodulator PE35
+GPOHPNEH_00018	CDS	261				putative protein
+GPOHPNEH_00019	CDS	141				hypothetical protein
+GPOHPNEH_00020	CDS	378				hypothetical protein
+GPOHPNEH_00021	CDS	339	gsiD		COG1173	Glutathione transport system permease protein GsiD
+GPOHPNEH_00022	CDS	306				hypothetical protein
+GPOHPNEH_00023	CDS	357	infC		COG0290	Translation initiation factor IF-3
+GPOHPNEH_00024	CDS	213				hypothetical protein
+GPOHPNEH_00025	CDS	258				hypothetical protein
+GPOHPNEH_00026	CDS	132				hypothetical protein
+GPOHPNEH_00027	CDS	159				hypothetical protein
+GPOHPNEH_00028	CDS	183		3.1.1.74		putative cutinase
+GPOHPNEH_00029	CDS	198	purE	5.4.99.18	COG0041	N5-carboxyaminoimidazole ribonucleotide mutase
+GPOHPNEH_00030	CDS	354				hypothetical protein
+GPOHPNEH_00031	CDS	207				hypothetical protein
+GPOHPNEH_00032	CDS	339				hypothetical protein
+GPOHPNEH_00033	CDS	372		3.1.1.-		Esterase PE16
+GPOHPNEH_00034	CDS	219				hypothetical protein
+GPOHPNEH_00035	CDS	336	purU	3.5.1.10	COG0788	Formyltetrahydrofolate deformylase
+GPOHPNEH_00036	CDS	324	pdxI	1.1.1.65		Pyridoxine 4-dehydrogenase
+GPOHPNEH_00037	CDS	219				hypothetical protein
+GPOHPNEH_00038	CDS	201				hypothetical protein
+GPOHPNEH_00039	CDS	258				hypothetical protein
+GPOHPNEH_00040	CDS	294				hypothetical protein
+GPOHPNEH_00041	CDS	162				hypothetical protein
+GPOHPNEH_00042	CDS	261				hypothetical protein
+GPOHPNEH_00043	CDS	162				hypothetical protein
+GPOHPNEH_00044	CDS	198				hypothetical protein
+GPOHPNEH_00045	CDS	306				hypothetical protein
+GPOHPNEH_00046	CDS	99				hypothetical protein
+GPOHPNEH_00047	CDS	183				hypothetical protein
+GPOHPNEH_00048	CDS	150				hypothetical protein
+GPOHPNEH_00049	CDS	294		4.4.1.13	COG1168	Putative cystathionine beta-lyase
+GPOHPNEH_00050	CDS	198				hypothetical protein
+GPOHPNEH_00051	CDS	174				hypothetical protein
+GPOHPNEH_00052	CDS	180				hypothetical protein
+GPOHPNEH_00053	CDS	267				PE-PGRS family protein PE_PGRS33
